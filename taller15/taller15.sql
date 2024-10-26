@@ -11,7 +11,7 @@ declare
 	v_titulo varchar;
 	v_titulo_existente varchar;
 begin   
-	 -- Extraer titulo
+	-- Extraer titulo
 	select xpath('//titulo/text()', p_descripcion) into v_titulo;
 	
 	raise notice 'El titulo es: %', v_titulo;
@@ -45,9 +45,9 @@ select guardar_libro(
         <titulo>El Principito 3</titulo>
         <autor>Antoine de Saint-Exupéry</autor>
         <anio>1943</anio>
-     </libro>');
+    </libro>');
     
- 
+
 -- Actualizar un libro
 create or replace procedure actualizar_libro(p_isbn varchar, p_nueva_descripcion xml)
 language plpgsql
@@ -81,7 +81,7 @@ call actualizar_libro(
         <titulo>El Principito 3 - Edición actualizada</titulo>
         <autor>Camilo Valencia</autor>
         <año>1943</año>
-     </libro>');
+    </libro>');
 
 
 -- Obtener el autor del libro por ISBN
@@ -173,6 +173,6 @@ select guardar_libro(
         <titulo>Cien Años de Soledad</titulo>
         <autor>Gabriel García Márquez</autor>
         <año>1967</año>
-     </libro>');
+    </libro>');
 
 
