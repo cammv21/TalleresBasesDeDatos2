@@ -1,0 +1,27 @@
+// 1 - Igual a
+{ "año": 1949 }
+
+// 2 - Mayor que
+{ "año": { "$gt": 2000 } }
+
+// 3 - Menor que
+{ "año": { "$lt": 1950 } }
+
+// 4 - Mayor o igual que
+{ "año": { "$gte": 1990 } }
+
+// 5 - Menor o igual que
+{ "año": { "$lte": 1960 } }
+
+// 6 - No igual
+{ "autor": { "$ne": "Gabriel García Márquez" } }
+
+// 7 - In
+{ "año": { "$in": [2005, 2007, 2010] } }
+
+// 8 - And
+{ "genero": "Fantasía", "año": { "$gte": 2000 } }
+
+// 9 - Or
+{ "$or": [ { "autor": "Harper Lee" }, { "autor": "J.D. Salinger" } ] }
+

@@ -1,0 +1,22 @@
+[
+  { "ISBN": "148410-1", "titulo": "El nombre del viento", "autor": "Patrick Rothfuss", "genero": "Fantasía", "año": 2007 },
+  { "ISBN": "909-2", "titulo": "1984", "autor": "George Orwell", "genero": "Distopía", "año": 1949 },
+  { "ISBN": "7356-3", "titulo": "El código Da Vinci", "autor": "Dan Brown", "genero": "Suspenso", "año": 2003 },
+  { "ISBN": "28423-4", "titulo": "Matar a un ruiseñor", "autor": "Harper Lee", "genero": "Drama", "año": 1960 },
+  { "ISBN": "112008-5", "titulo": "Cien años de soledad", "autor": "Gabriel García Márquez", "genero": "Realismo mágico", "año": 1967 },
+  { "ISBN": "118253-6", "titulo": "El gran Gatsby", "autor": "F. Scott Fitzgerald", "genero": "Clásico", "año": 1925 },
+  { "ISBN": "76948-7", "titulo": "Crepúsculo", "autor": "Stephenie Meyer", "genero": "Fantasía", "año": 2005 },
+  { "ISBN": "28425-8", "titulo": "Orgullo y prejuicio", "autor": "Jane Austen", "genero": "Romance", "año": 1813 },
+  { "ISBN": "143960-9", "titulo": "Frankenstein", "autor": "Mary Shelley", "genero": "Terror", "año": 1818 },
+  { "ISBN": "7357-10", "titulo": "Ángeles y demonios", "autor": "Dan Brown", "genero": "Suspenso", "año": 2000 },
+  { "ISBN": "21311-11", "titulo": "El guardián entre el centeno", "autor": "J.D. Salinger", "genero": "Clásico", "año": 1951 },
+  { "ISBN": "7454-12", "titulo": "El alquimista", "autor": "Paulo Coelho", "genero": "Ficción", "año": 1988 },
+  { "ISBN": "76952-13", "titulo": "Luna nueva", "autor": "Stephenie Meyer", "genero": "Fantasía", "año": 2006 },
+  { "ISBN": "112009-14", "titulo": "El amor en los tiempos del cólera", "autor": "Gabriel García Márquez", "genero": "Romance", "año": 1985 },
+  { "ISBN": "50350-15", "titulo": "El señor de los anillos", "autor": "J.R.R. Tolkien", "genero": "Fantasía", "año": 1954 },
+  { "ISBN": "7358-16", "titulo": "Inferno", "autor": "Dan Brown", "genero": "Suspenso", "año": 2013 },
+  { "ISBN": "088328-17", "titulo": "Crónica de una muerte anunciada", "autor": "Gabriel García Márquez", "genero": "Realismo mágico", "año": 1981 },
+  { "ISBN": "28424-18", "titulo": "Jane Eyre", "autor": "Charlotte Brontë", "genero": "Romance", "año": 1847 },
+  { "ISBN": "02425-19", "titulo": "It", "autor": "Stephen King", "genero": "Terror", "año": 1986 },
+  { "ISBN": "28422-20", "titulo": "El retrato de Dorian Gray", "autor": "Oscar Wilde", "genero": "Clásico", "año": 1890 }
+]

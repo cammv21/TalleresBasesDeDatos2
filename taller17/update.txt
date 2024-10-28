@@ -1,0 +1,39 @@
+// 1
+{ "año": 1951 }
+{ "$set": { "año": 2001 } }
+
+// 2
+{ "autor": "Dan Brown" }
+{ "$set": { "edicion": "segunda" } }
+
+// 3
+{ autor: "George Orwell" }
+{ "$set": { "genero": "Suspenso" } }
+
+// 4
+{ "titulo": { "$regex": "código", "$options": "i" } }
+{ "$set": { "genero": "Ciencia Ficción" } }
+
+// 5
+{ "año": { "$gt": 2000 } }
+{ "$unset": { "edicion": "" } }
+
+// 6
+{ "autor": "Gabriel García Márquez" }
+{ "$rename": { "titulo": "nombre_libro" } }
+
+// 7
+{ "año": { "$lt": 2000 } }
+{ "$set": { "disponible": true } }
+
+// 8
+{ "genero": "Suspenso" }
+{ "$set": { "etiquetas": ["misterio", "intriga", "acción"] } }
+
+// 9
+{ "año": { "$gte": 1800, "$lte": 1900 } }
+{ "$set": { "autor": "Anónimo" } }
+
+// 10
+{ "ISBN": "28423-4" }
+{ "$set": { "titulo": "Renovado título", "autor": "Nuevo autor", "genero": "Novela" } }
