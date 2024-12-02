@@ -184,7 +184,7 @@ begin
 		values (new.codigo_producto, new.nombre, new.categoria, new.porcentaje_impuesto, new.precio);
 		return new;
 	}
-	raise exception 'El precio debe ser mayor a 0  y menos a 20000'
+	raise exception 'El precio debe ser mayor a 0  y menos a 20000';
 end;
 $$
 language plpgsql;
